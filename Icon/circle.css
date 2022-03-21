@@ -1,0 +1,10 @@
+@charset "utf-8";
+	.st0
+{
+	background : #FFFFFF;
+	background : rgba(255, 255, 255, 1);
+	border-style : Solid;
+	border-color : #00FFFF;
+	border-color : rgba(0, 255, 255, 1);
+	border-width : 40pt;
+}

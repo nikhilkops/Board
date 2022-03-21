@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="Titile_Image/Whiteboard-icon-by-ahlangraphic.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="BoardCSS/Board.css" />
+    <title>Board</title>
+  </head>
+
+  <body> 
+
+       
+    <div class="ToolBar">
+      <div class="Tool">
+        <img src="./Icon/pecil.svg" alt="" class="tool-image" id="pencil" />
+      </div>
+      <div class="Tool">
+        <img src="./Icon/eraser.svg" alt="" class="tool-image" id="eraser" />
+      </div>
+      <div class="Tool">
+        <img src="./Icon/circle.svg" alt="" class="tool-image" id="circle" />
+      </div>
+      <div class="Tool">
+        <img src="./Icon/Line.svg" alt="" class="tool-image" id="line" />
+      </div>
+      <div class="Tool">
+        <img
+          src="./Icon/Rectangle.svg"
+          alt=""
+          class="tool-image"
+          id="Rectangle"
+        />
+      </div>
+      <div class="Tool">
+        <img src="./Icon/note.svg" alt="" class="tool-image" id="note" />
+      </div>
+      <div class="Tool">
+        <img src="./Icon/clera.svg" alt="" class="tool-image" id="clear" />
+      </div>
+      <div class="Tool">
+        <img
+          src="./Icon/ImageUpload.svg"
+          alt=""
+          class="tool-image"
+          id="Upload"
+        />
+      </div>
+
+      <div class="Tool">
+        <img
+          src="./Icon/Download.svg"
+          alt=""
+          class="tool-image"
+          id="Download"
+        />
+      </div>
+      <div class="Tool">
+        <img src="./Icon/Undo.svg" alt="" class="tool-image" id="undo" />
+      </div>
+      <div class="Tool">
+        <img src="./Icon/redo.svg" alt="" class="tool-image" id="redo" />
+      </div>
+
+      <input type="color" id="head" name="head" class="tool-slider" />
+      <input
+        type="range"
+        id="myRange"
+        min="1"
+        max="11"
+        value="2"
+        class="tool-slider"
+      />
+    </div>
+    <!-- <h1>This is Open CanvasBoard ans</h1> -->
+    <canvas
+      style="
+        box-shadow: -0.4px -8.1px 113.9px rgba(0, 0, 0, 0.1),
+          1.9px 35px 431.3px rgba(0, 0, 0, 0.108),
+          5.5px 100px 536.5px rgba(0, 0, 0, 0.096),
+          10px 181px 433px rgba(0, 0, 0, 0.07);
+      "
+    >
+    </canvas>
+  </body>
+  <script src="BoardJS/draw.js"></script>
+  <script src="BoardJS/select.js"></script>
+  <script src="BoardJS/touch.js"></script>
+</html>
